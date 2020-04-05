@@ -54,7 +54,7 @@ body{
     and make the text a bit bigger */
 #nav > ul > li{
   display: inline;
-  padding: 50px;
+  padding: 30px;
   font-size: 20px;
 }
 
