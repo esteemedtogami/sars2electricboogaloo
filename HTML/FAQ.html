@@ -1,0 +1,128 @@
+<!--
+    Last Updated April 5, 2020
+    Copyright (C) 2020 Sam Pickell, Joe McGaunn, Sam LaRussa
+    Sars COV 2 Electric Boogaloo - FAQ page
+-->
+<!DOCTYPE HTML>
+<html lang = "en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <!--<link rel="shortcut icon" href="IMG/Minato.ico">-->
+  <title>FAQ - FAH Team 240440</title>
+  <meta charset = "UTF-8" />
+
+  <!-- Links to the index CSS -->
+  <link rel="stylesheet" href="../CSS/FAQ.css"/>
+</head>
+<!-- This is the body, where the rest of the page is set up-->
+  <body>
+
+    <!-- The main heading -->
+    <div id="title">
+      <h1>FAQ for FAH Team 240440</h1>
+    </div>
+
+    <!-- Added a nav bar  -->
+    <div id="nav">
+      <!-- Here is an unordered list -->
+      <ul>
+
+        <!-- These are list elements that primarily link to GitHub -->
+        <li><a href="https://sars2electricboogaloo.com/">Home</a></li>
+        <li><a href="https://sars2electricboogaloo.com/HTML/stats.html">Stats</a></li>
+        <li><a href="https://sars2electricboogaloo.com/">Videos (Coming Soon!)</a></li>
+      </ul>
+    </div>
+
+    <!-- Sub-heading, starts the FAQ section -->
+    <div id="FAQ">
+        <p class="question">Q: "How do I join the team?"</p>
+        <p class="answer">A: From the web control page, in the top left click
+            “Change Identity”. From there, you can create a username, enter our
+            team number (240440), and generate and enter a password for
+            yourself!</p>
+        <p class="question">Q: Why isn’t my computer working on WUs?</p>
+        <p class="answer">A: Our best advice for people who are having trouble
+            is in the desktop client, right-click any process that's been
+            sitting at "Ready" for a while, pause it, wait 5 seconds, and then
+            right-click and select "Fold". It'll bring the retry counter down
+            from several minutes to about 30-60 seconds. Do this whenever the
+            retry timer gets really high. Additionally, from the web client, you
+            can click the "Stop folding" button, and click the "Stop folding"
+            button in the next window (not the finish current WU option). Then,
+            when the button turns green, click it to restart. This sometimes
+            fixes stuck WU. The final thing that seems to help is, if both CPU
+            and GPU are stuck at ready, go into your task manager, sort
+            alphabetically, find the FAH32 process, and kill it. Then
+            relaunch the desktop and web client simultaneously. None of these
+            are guaranteed fixes, but they sometimes get the program to work
+            again. Best to try one of these suggestions and then let it sit for
+            about 5 mins, and if it still isn't working, try another suggestion.
+        </p>
+        <p class="question">Q: If I interrupt a WU partway through, do I lose
+            progress?</p>
+        <p class="answer">A: It depends. If you manually pause it, you shouldn't
+            lose any progress. If your computer crashes or loses power, you
+            might. For instances like this, FAH periodically automatically makes
+            checkpoints, so if the program gets interrupted in this way, it’ll
+            pick up from its last checkpoint the next time it is run. You can
+            set your checkpoint interval in the desktop client.</p>
+        <p class="question">Q: In general, how can I optimize my computer's
+            performance?</p>
+        <p class="answer">A: Generally speaking, a lower thermal environment
+            leads to better automatic performance, i.e. the cooler you keep your
+            computer, the farther your components should boost themselves! You
+            can also often set manual fan curves for your case fans in your
+            system's BIOS that are more aggressive than the default ones (note
+            that depending on how aggressive, it could add extra wear to your
+            cooling solution, but help the lifespan of the other components).
+        </p>
+        <p class="question">Q: More specifically, How can I optimize GPU
+            performance?</p>
+        <p class="answer">A: Look into the program "MSI Afterburner" if you
+            don't already have it. It lets you fine-tune your graphics card's
+            performance. Most of the time it's an overclocking tool, which is
+            great if you're into that, but for the average user, we find that
+            the simple fan control slider is a huge boon. For example, at default
+            settings, Sam P.'s blower-style GPU would sit at ~80C. But after
+            disabling the stock fan curve and moving the slider to be at 75%
+            fan speed, not only did his temps get down to ~70C, but now his core
+            clock is higher meaning he can finish a WU in a slightly shorter
+            period of time. Bear in mind however, that the fan(s) on your GPU
+            (if air cooled) is a point of failure, and running at 100% fan speed
+            could affect its lifespan, hence why Sam is sticking to 75-80% max
+            fan speed. Another option is to set a custom fan curve to
+            dynamically adjust fan speed vs temperature, thereby allowing your
+            fan to spin down when the GPU isn’t as hot (say in between WUs).
+            Click the "gear" icon and navigate to the "Fan" tab (note that many
+            laptops seem to not have this option). You can make all of your
+            adjustments here. After making an adjustment, make sure to click
+            "Apply", and then on the main monitoring screen, click the "check"
+            box to apply your settings.</p>
+        <p class="answer">TL;DR: using MSI afterburner to set your GPU fan speed
+            to 75% decreases temps and ups performance.</p>
+        <p class="question">Q: The webpage is constantly refreshing and I can’t
+            see any stats. What should I do?</p>
+        <p class="answer">A: This has to do with browser caching/cookies. You
+            can manually clear the cache/cookies, but instead of clearing the
+            cache/cookies every time, there are a couple of options. Going into
+            the developer tools in your browser and disable caching specifically
+            for the webpage is one way. Just using another browser, for example,
+            Microsoft Edge is another. Edge can be configured the to clear the
+            cache, cookies and everything else everytime you close Edge. Just
+            poke around in the settings!</p>
+        <!--<p class="question">Q: </p>
+        <p class="answer">A: </p>-->
+      </div>
+
+      <!-- JS for the index -->
+      <script src="../JS/FAQ.js"></script>
+
+    </body>
+
+  <!-- Added a footer tag  -->
+  <footer>
+    <p id="my_copyright">
+      Website Copyright &copy; 2020 Sam Pickell, Joe McGaunn, Sam LaRussa
+  </p>
+  </footer>

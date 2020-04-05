@@ -1,7 +1,7 @@
 /*
     Last Updated April 5, 2020
     Copyright (C) 2020 Sam Pickell, Joe McGaunn, Sam LaRussa
-    Sars COV 2 Electric Boogaloo - Stats page
+    Sars COV 2 Electric Boogaloo - FAQ page
 */
 
 body{
@@ -53,12 +53,11 @@ body{
   font-size: 20px;
 }
 
-/* Centers and colors the background of the stats section */
-#stats{
+/* Centers and colors the background of the FAQ section */
+#FAQ{
   background-color: #343131;
   border-radius: 10px;
   max-width: 800px;
-  height: 1000px;
   padding: 10px;
   padding-top: 1px;
   text-align: left;
@@ -70,36 +69,29 @@ body{
   margin: auto;
 }
 
+#FAQ > p
+{
+  font-size: 20px;
+}
+
 /* Adds back the underline for just this section */
-#stats > p > a{
+#FAQ > p > a{
   text-decoration: underline;
 }
 
-.embed_stats
+.question
 {
-    padding-top: 20px;
-    width: 799px;
-    height: 700px;
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
 }
 
-#oc_stats
+.answer
 {
-    margin: 20px;
-    margin-bottom: 70px;
+    margin-bottom: 75px;
 }
 
-#oc_stats > a
-{
-    font-size: 35px;
-    text-decoration: underline;
-    text-decoration-color: red;
-}
 
-#off_stats_p
-{
-    font-size: 35px;
-    margin: 20px;
-}
 
 /* Increases title font size and color, and outline color */
 /* Outline styling found here: https://wpshout.com/quick-guides/create-text-outline-css/ */
