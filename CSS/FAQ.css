@@ -82,6 +82,7 @@ body{
 /* Adds back the underline for just this section */
 #FAQ > p > a{
   text-decoration: underline;
+  color: cyan;
 }
 
 .question
