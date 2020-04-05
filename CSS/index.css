@@ -4,6 +4,11 @@
     Sars COV 2 Electric Boogaloo - Home page
 */
 
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 body{
     #background-image: linear-gradient(red, #831600);
     background-image: linear-gradient(black, #831600);
