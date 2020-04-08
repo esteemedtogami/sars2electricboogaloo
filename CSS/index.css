@@ -93,6 +93,11 @@ body{
     font-size: 20px;
     padding-bottom: 10px;
 }
+#welcome > ul > li > a
+{
+    text-decoration: underline;
+    color: cyan;
+}
 
 /* Increases title font size and color, and outline color */
 /* Outline styling found here: https://wpshout.com/quick-guides/create-text-outline-css/ */
