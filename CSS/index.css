@@ -1,5 +1,5 @@
 /*
-    Last Updated April 5, 2020
+    Last Updated April 8, 2020
     Copyright (C) 2020 Sam Pickell, Joe McGaunn, Sam LaRussa
     Sars COV 2 Electric Boogaloo - Home page
 */
@@ -74,46 +74,24 @@ body{
   margin: auto;
 }
 
+#welcome > p
+{
+    padding-bottom: 20px;
+}
+
 /* Adds back the underline for just this section */
 #welcome > p > a{
   text-decoration: underline;
   color: cyan;
 }
 
-/* Positions the Dog section of the page */
-#about_container{
-  width: 825px;
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-/* Sets up the Dog text div, and floats it to the left of the container */
-#about_text{
-  max-width: 400px;
-  background-color: #343131;
-  margin-top: 10px;
-  border-radius: 10px;
-  padding: 10px;
-  padding-top: 1px;
-  float: left;
-}
-
-/* Positions the image to the right of the container */
-#about_image{
-  max-width: 400px;
-  float: right;
-  margin-top: 10px;
-}
-
-/* Modify the image size */
-#about_image > img{
-    width: 75%;
-    height: 75%;
-    padding-left: 75px;
+#welcome > ul > li
+{
+    text-decoration: underline;
+    color: cyan;
+    list-style-type: none;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 /* Increases title font size and color, and outline color */
