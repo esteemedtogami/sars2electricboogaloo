@@ -101,6 +101,11 @@ body{
     margin-bottom: 60px;
 }
 
+#News > ol > li
+{
+  font-size: 20px;
+}
+
 
 
 /* Increases title font size and color, and outline color */
@@ -122,6 +127,11 @@ h2{
 
 /* Changes paragraph color */
 p{
+  color: #C7C6C6;
+}
+
+/* Changes list element color */
+li{
   color: #C7C6C6;
 }
 
